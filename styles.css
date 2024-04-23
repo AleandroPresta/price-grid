@@ -124,9 +124,21 @@ ul {
   device, instead of being side by side.
   
 */
+
 @media (max-width: 650px) {
   #bottom-left-section, #bottom-right-section, #card {
-    width: 100;
+    width: 100%;
     height: auto;
+  }
+  #bottom-section {
+    flex-direction: column;
+  }
+  #bottom-right-section {
+    padding-top: 25px;
+  }
+  button {
+    width: calc(100% - 50px); /* Adjust button width */
+    margin-right: auto; /* Center button horizontally */
+    margin-left: auto;
   }
 }
