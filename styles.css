@@ -124,8 +124,10 @@ ul {
   device, instead of being side by side.
 */
 
+/* Existing CSS rules remain unchanged */
+
 @media (max-width: 650px) {
-  #bottom-left-section, #bottom-right-section, #card {
+  #card {
     width: 100%;
     height: auto;
   }
@@ -136,8 +138,7 @@ ul {
     padding-top: 25px;
   }
   button {
-    width: calc(100% - 50px); /* Adjust button width */
-    margin-right: auto; /* Center button horizontally */
-    margin-left: auto;
+    width: 100%;
   }
 }
+
