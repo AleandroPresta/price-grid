@@ -122,7 +122,6 @@ ul {
   Using desktop first design: the last two sections
   will be stacked on top of each other on a mobile
   device, instead of being side by side.
-  
 */
 
 @media (max-width: 650px) {
