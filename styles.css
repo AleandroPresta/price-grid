@@ -124,8 +124,6 @@ ul {
   device, instead of being side by side.
 */
 
-/* Existing CSS rules remain unchanged */
-
 @media (max-width: 650px) {
   #card {
     width: 100%;
