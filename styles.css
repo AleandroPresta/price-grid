@@ -125,7 +125,7 @@ ul {
   
 */
 
-@media (min-width: 576px) {
+@media (min-width: 650px) {
   #bottom-left-section, #bottom-right-section, #card {
     width: 100%;
     height: auto;
